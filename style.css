@@ -1,0 +1,83 @@
+/* General container styling */
+.container {
+    max-width: 1000px;
+    min-width: 700px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Centering the main heading */
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Impact', sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0.5em;
+}
+
+/* Squad info (Hometown and Formed date) */
+h2 {
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'Arial', sans-serif;
+    color: black;
+    margin-bottom: 2em;
+    font-weight: bold;
+}
+
+/* Container holding the hero cards */
+#hero-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap; 
+    gap: 10px; /* gap between the cards */
+}
+
+/* Hero card container */
+.hero-card {
+    flex: 1 1 30%; /* Flex-grow, flex-shrink, and width at 30% */
+    max-width: 30%; 
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 0;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: lef;
+}
+
+/* Hero name styling */
+.hero-card h2 {
+    font-family: 'Impact', sans-serif;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: black;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Superhero details */
+.hero-card p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #333;
+}
+
+/* Superpower list styling */
+.superpowers {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.superpowers li {
+    margin-left: 10px;
+    padding-left: 10px;
+    font-size: 1em;
+    color: #444;
+    position: relative;
+}
+
+
+

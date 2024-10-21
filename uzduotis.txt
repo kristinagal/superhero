@@ -1,0 +1,11 @@
+Naudojant fetch API, gauti duomenis iš https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json
+ir juos atvaizduoti HTML'e. kuo tiksliau atkartojant "Super hero squad" kortelės pavyzdį.
+DOM formavimas turi būti dinaminis, t.y. naudojant JavaScript.
++ Numatyti galimybę atvaizduoti daugiau super herojų, nei yra pavyzdyje. (realizuoti nereikia)
++ Numatyti galimybę keisi superherojaus "Secret identity". (realizuoti nereikia)
++ Numatyti galimybę keisi superherojaus amžių. (realizuoti nereikia)
++ Numatyti galimybę superherojui pridėti/pašalinti "Superpower". (realizuoti nereikia)
+ 
+Paskaitos gale, studentai apsikeis savo kodais ir turės atsakyti į klausimus:
+1. Ką aš daryčiau kitaip ir kodėl?
+2. (optional) Kokias matau problemas ir kaip jas spresčiau?
